@@ -281,6 +281,11 @@
     .banner-btn {
         margin-bottom: 20px;
     }
+    .banner-right img {
+        width: 120%;
+        margin-bottom: -7px;
+        
+    }
 
 }
 
