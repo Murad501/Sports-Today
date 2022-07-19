@@ -241,3 +241,45 @@
     }
 
 /* footer section end */
+
+
+/* media query start */
+
+/* extra small device */
+
+@media only screen and (max-width: 575px) {
+
+    .container {
+        width: 100%;
+        margin: 0 20px;
+
+    }
+
+    /* banner section */
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-heading {
+        text-align: center;
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .banner-para {
+        font-size: 14px;
+        line-height: 24px;
+        height: 48px;
+        width: 260px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .banner-btn {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* media query end */
